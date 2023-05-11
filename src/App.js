@@ -1,16 +1,28 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import "./App.css";
 import FormularioCadastro from "./components/FormularioCadastro/FormularioCadastro";
+import { Fragment } from "react";
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        <h1>Formulário de cadastro</h1>
+        <h1>Formulário de Cadastro</h1>
         <FormularioCadastro />
       </Fragment>
     );
   }
 }
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <Fragment>
+//         <h1>Formulário de cadastro</h1>
+//         <FormularioCadastro />
+//       </Fragment>
+//     );
+//   }
+// }
 
 export default App;
