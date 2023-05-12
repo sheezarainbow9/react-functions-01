@@ -16,3 +16,5 @@ Repositório 04 do curso de React-JS da Alura-One.
 React: Function Components, uma abordagem moderna.
 
 ## Deploy da Aplicação :dash:
+
+https://react-functions-01.vercel.app/
